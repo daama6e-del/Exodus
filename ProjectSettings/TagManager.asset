@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Sky/Clouds
+    uniqueID: 1568727109
+    locked: 0
+  - name: Background
+    uniqueID: 636781235
+    locked: 0
+  - name: Plantery/Trees
+    uniqueID: 1283047841
+    locked: 0
+  - name: Front
+    uniqueID: 2360050497
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
