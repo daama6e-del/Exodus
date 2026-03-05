@@ -8,7 +8,7 @@ public class Obstacle : MonoBehaviour
     public float zoooom = 5f;
     
     // TODO: A public float variable to control how far the object should go before being destroyed offscreen.
-    public float breakBoom = -15f;
+    public float breakBoom = -18f;
 
     // Start is called before the first frame update
     void Start()

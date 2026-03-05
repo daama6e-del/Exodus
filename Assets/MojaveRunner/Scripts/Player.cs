@@ -35,25 +35,6 @@ public class Player : MonoBehaviour
                 rigidbody.AddForce(forceDirection * JumpHeight, ForceMode2D.Impulse);
             }
         }
-
-        //Move back and fourth with A and D keys
-        if (Input.GetKey(KeyCode.A))
-        {
-            Vector2 forceDirection = -transform.right;
-            rigidbody.AddForce(forceDirection * Speed, ForceMode2D.Impulse);
-            //Speed limiter
-            if (rigidbody.velocity.x < -Speed)
-            {
-                rigidbody.velocity = new Vector2(-Speed, rigidbody.velocity.y);
-            }
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            Vector2 forceDirection = transform.right;
-            rigidbody.AddForce(forceDirection * Speed, ForceMode2D.Impulse);
-            rigidbody.velocity = new Vector2(Speed, rigidbody.velocity.y);
-        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
