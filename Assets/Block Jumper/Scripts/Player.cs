@@ -9,9 +9,9 @@ public class Player : MonoBehaviour
 {
     // TODO: Reference to Rigidbody2D component should have class scope.
     public Rigidbody2D rigidbody;
-    // TODO: A float variable to control how high to jump / how much upwards
     public float JumpHeight = 2;
-    // force to add. yup
+    public float Speed = 10;
+    public bool IsFalling = true;
 
     // Start is called before the first frame update
     void Start()
@@ -26,12 +26,51 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // TODO: On the frame the player presses down the space bar, add an instant upwards
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (!IsFalling)
         {
-            Vector2 forceDirection = transform.up;
-            rigidbody.AddForce(forceDirection * JumpHeight, ForceMode2D.Impulse);
+            // TODO: On the frame the player presses down the space bar, add an instant upwards
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Vector2 forceDirection = transform.up;
+                rigidbody.AddForce(forceDirection * JumpHeight, ForceMode2D.Impulse);
+            }
         }
-        // force to the rigidbody.
+
+        //Move back and fourth with A and D keys
+        if (Input.GetKey(KeyCode.A))
+        {
+            Vector2 forceDirection = -transform.right;
+            rigidbody.AddForce(forceDirection * Speed, ForceMode2D.Impulse);
+            //Speed limiter
+            if (rigidbody.velocity.x < -Speed)
+            {
+                rigidbody.velocity = new Vector2(-Speed, rigidbody.velocity.y);
+            }
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            Vector2 forceDirection = transform.right;
+            rigidbody.AddForce(forceDirection * Speed, ForceMode2D.Impulse);
+            rigidbody.velocity = new Vector2(Speed, rigidbody.velocity.y);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        print("On collision enter");
+        if (collision.gameObject.CompareTag("Ground")) //The engine does not know what 'other' is
+        {
+            IsFalling = false;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        print("On collision exit");
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            IsFalling = true;
+        }
     }
 }
