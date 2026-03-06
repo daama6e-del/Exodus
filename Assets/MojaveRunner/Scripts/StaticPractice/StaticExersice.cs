@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-/*
+
 // TODO: Define a simple class called MyMath with the following static methods:
 // * Add - adds two integers together and returns the result.
 public static class MyMath
@@ -20,9 +20,14 @@ public static class MyMath
         return a - b; //drops off the answer right here, got it!!!!!
     }
 
-    public static Multiply(int a, int b)
+    public static int Multiply(int a, int b)
     {
-        return 
+        return a * b;
+    }
+
+    public static int Divide(int a, int b)
+    {
+        return a / b;
     }
 }
 // * Subtract - subtracts integer b from integer a and returns the result.
@@ -49,17 +54,4 @@ public class StaticPractice : MonoBehaviour
 
         print(MyMath.Divide(10, 2));
     }
-
-    public class MyClass
-    {
-        public static int num = 0;
-        public string name;
-
-        public MyClass(string name)
-        {
-            this.name = name;
-            num++;
-        }
-    }
 }
-*/

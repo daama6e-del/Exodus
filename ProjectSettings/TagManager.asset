@@ -39,13 +39,13 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Sky/Clouds
+  - name: Background
     uniqueID: 1568727109
     locked: 0
-  - name: Background
+  - name: MiddleGround
     uniqueID: 636781235
     locked: 0
-  - name: Plantery/Trees
+  - name: ForeGround
     uniqueID: 1283047841
     locked: 0
   - name: Front

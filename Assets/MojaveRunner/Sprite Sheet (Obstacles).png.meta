@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Sprite Sheet (Obstacles)_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 662
+        width: 371
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd53e4b0a4a59f408b766628990bad6
+      internalID: -1135067665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet (Obstacles)_3
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 661
+        width: 383
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7c3498b0c007842be4dd0ea6de7877
+      internalID: -1380931903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet (Obstacles)_6
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 662
+        width: 377
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b725a40a3db49bf4cad3e1824dcd5879
+      internalID: -1902828220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet (Obstacles)_9
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 662
+        width: 383
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213021e682e135846a07bc743e1f3cd8
+      internalID: 391199151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet (Obstacles)_12
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 116
+        width: 173
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc15529a452c414983651e72be207ef
+      internalID: -598687327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet (Obstacles)_13
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 105
+        width: 177
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd447708e9018144893ca2653f7336e
+      internalID: 1034807538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +258,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sprite Sheet (Obstacles)_0: -1135067665
+      Sprite Sheet (Obstacles)_1: -945418253
+      Sprite Sheet (Obstacles)_10: 1469869292
+      Sprite Sheet (Obstacles)_11: -147894563
+      Sprite Sheet (Obstacles)_12: -598687327
+      Sprite Sheet (Obstacles)_13: 1034807538
+      Sprite Sheet (Obstacles)_2: -2130215801
+      Sprite Sheet (Obstacles)_3: -1380931903
+      Sprite Sheet (Obstacles)_4: 568415180
+      Sprite Sheet (Obstacles)_5: 1736265399
+      Sprite Sheet (Obstacles)_6: -1902828220
+      Sprite Sheet (Obstacles)_7: -1342639412
+      Sprite Sheet (Obstacles)_8: -1280794320
+      Sprite Sheet (Obstacles)_9: 391199151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

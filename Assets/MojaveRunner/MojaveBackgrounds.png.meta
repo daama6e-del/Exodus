@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MojaveBackgrounds_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4158
+        width: 1909
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b871d73eb76467240b7b37a12bc5f8ad
+      internalID: 208114038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MojaveBackgrounds_1
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 3648
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e0fa6cda80d9f48a9a4adc3ad214db
+      internalID: 1385452746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MojaveBackgrounds_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3324
+        width: 1909
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e16eacd0f922ac46881d477c57e19ce
+      internalID: 1871742748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MojaveBackgrounds_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2491
+        width: 1909
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0ec06cf485f9d4b81bb6e5690de800
+      internalID: -143936970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MojaveBackgrounds_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1663
+        width: 1909
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b05933d331a084a902be8ad1cf3cc0
+      internalID: -2034905772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MojaveBackgrounds_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 847
+        width: 1909
+        height: 802
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e65b462c4d6d704a9c8f7068c96a77e
+      internalID: 1023898755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MojaveBackgrounds_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 1909
+        height: 802
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93579835d3823df4090b04f519c40b0f
+      internalID: 800891993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +279,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MojaveBackgrounds_0: 208114038
+      MojaveBackgrounds_1: 1385452746
+      MojaveBackgrounds_2: 1871742748
+      MojaveBackgrounds_3: -143936970
+      MojaveBackgrounds_4: -2034905772
+      MojaveBackgrounds_5: 1023898755
+      MojaveBackgrounds_6: 800891993
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
