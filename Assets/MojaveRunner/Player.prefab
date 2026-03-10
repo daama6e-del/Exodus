@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7d124a16626ea34c8bc19bf1757276d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbody: {fileID: 0}
+  rigidbody: {fileID: 6663319071948599185}
   JumpHeight: 6
   Speed: 10
   IsFalling: 0

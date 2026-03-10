@@ -12,7 +12,7 @@ public class PlayerAnimation : MonoBehaviour
     public Animator TheAnimator;
     public Rigidbody2D TheRigidbody2D;
     public Player ThePlayer;
-
+    public GameObject particlePrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,10 +26,15 @@ public class PlayerAnimation : MonoBehaviour
     void Update()
     {
         // ToDo: Set the animator bool parameter "Falling" to the value of player.isFalling.
-         TheAnimator.SetBool("Falling", ThePlayer.IsFalling);
-       
+        TheAnimator.SetBool("Falling", ThePlayer.IsFalling);
+
 
         // ToDo: Set the animator float parameter "YVelocity" to the value of rigidbody2D.velocity.y
         TheAnimator.SetFloat("YVelocity", TheRigidbody2D.velocity.y);
     }
-}
+
+    public void Smoke()
+    {
+        Instantiate(particlePrefab, transform.position, Quaternion.identity);
+    }
+} 
