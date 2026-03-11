@@ -6,6 +6,10 @@ public class PlayerUI : MonoBehaviour
 {
     public PlayerHealth playerHealth;
     public Image[] heartImages;
+    public float Distance = 0f;
+    public float Multiplier = 5f;
+    public Text scoreText;
+    public const string F0 = "F0";
     int health = 0;
 
     void Awake()
@@ -24,8 +28,11 @@ public class PlayerUI : MonoBehaviour
         if (health != playerHealth.healthAmount)
         {
             UpdateHealth();
-            print("duke!!!!!!!!!!");
+            print("duke!!!!!!!!!!"); //debugger
         }
+
+        Distance += Time.deltaTime * Multiplier;
+        scoreText.text = "Distance: " + Distance.ToString(F0);
     }
 
     // This function will be used to regularly update the hearts on screen to match how much health the player has.
@@ -41,8 +48,16 @@ public class PlayerUI : MonoBehaviour
         */
         for (int i = 0; i < heartImages.Length; i++)
         {
-            if (i < health) heartImages[i].enabled = true;
-            else heartImages[i].enabled = false;
+            if (i < health)
+            { 
+                heartImages[i].enabled = true;
+                print("heartianian"); //debugger
+            }
+            else
+            {
+                heartImages[i].enabled = false;
+                print("no heartianian"); //debugger
+            }
         }
     }
 }
