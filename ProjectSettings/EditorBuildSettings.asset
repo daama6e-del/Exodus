@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MojaveRunner/TheMojave.unity
     guid: b1cb91aaec2ed7846913fa5ed96e0419
-  - enabled: 0
+  - enabled: 1
     path: Assets/MojaveRunner/ZIntro.unity
     guid: af65532a2ca25f444888a09d461a026c
   m_configObjects: {}

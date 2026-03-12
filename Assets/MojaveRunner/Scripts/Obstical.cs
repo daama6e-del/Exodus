@@ -18,7 +18,7 @@ public class Obstacle : MonoBehaviour
 
         if (transform.position.x < breakBoom)
         {
-            Destroy(gameObject);
+           gameObject.SetActive(false);
         }
     }
 

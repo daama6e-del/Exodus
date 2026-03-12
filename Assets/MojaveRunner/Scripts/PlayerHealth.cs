@@ -1,13 +1,13 @@
 using UnityEngine;
-
+using Animation = UnityEngine.Animations;
+ 
 public class PlayerHealth : MonoBehaviour
 {
     public int healthAmount = 3;
-
     public void TakeDamage(int damageAmount)
     {
         healthAmount -= damageAmount;
-
+        GameFeel.AddCameraShake(0.2f);
         if (healthAmount <= 0 )
         {
             GameManager.instance.Restart();
