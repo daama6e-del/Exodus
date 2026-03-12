@@ -326,6 +326,10 @@ PrefabInstance:
       propertyPath: heartImages.Array.data[2]
       value: 
       objectReference: {fileID: 1592658977}
+    - target: {fileID: -5711708563856507138, guid: 6b5c17c999499ec46aeddb786e0f3ba7, type: 3}
+      propertyPath: heartImages.Array.data[3]
+      value: 
+      objectReference: {fileID: 1592658977}
     - target: {fileID: 408366245980576103, guid: 6b5c17c999499ec46aeddb786e0f3ba7, type: 3}
       propertyPath: m_Name
       value: HeartImage3
@@ -588,7 +592,7 @@ MonoBehaviour:
   timer: 0
   highScore: 0
   DistanceScore: 0
-  Multiplier: 1e+26
+  Multiplier: 5
   scoreText: {fileID: 518990850}
 --- !u!1 &603082086
 GameObject:
@@ -909,8 +913,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 690019052}
   - {fileID: 101903198}
+  - {fileID: 690019052}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1466984988
@@ -1790,7 +1794,7 @@ MonoBehaviour:
   timer: 0
   highScore: 0
   DistanceScore: 0
-  Multiplier: 1e+26
+  Multiplier: 5
   scoreText: {fileID: 1875554366}
 --- !u!222 &1875554368
 CanvasRenderer:

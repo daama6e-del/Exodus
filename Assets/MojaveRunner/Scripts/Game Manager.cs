@@ -22,12 +22,23 @@ public class GameManager : MonoBehaviour
 
     public void Restart()
     {
+        Thread.Sleep(500);
+        SceneManager.LoadScene(0);
+    }
+    public void Fork()
+    {
+        Thread.Sleep(0);
         SceneManager.LoadScene(1);
     }
 
-    public void StartGame()
+    public void Franklin()
     {
-        Thread.Sleep(1000);
-        SceneManager.LoadScene(0);
+        Thread.Sleep(500);
+        SceneManager.LoadScene(2);
+    }
+    public void Thackery()
+    {
+        Thread.Sleep(500);
+        SceneManager.LoadScene(3);
     }
 }
