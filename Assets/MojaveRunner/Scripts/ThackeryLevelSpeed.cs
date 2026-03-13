@@ -16,10 +16,10 @@ public static class ParalaxThackeryGame
         switch (layer)
         {
             case Layer.FrontGround:
-                return speed * 100f;
+                return speed * 5.5f;
 
             case Layer.MidGround:
-                return speed * 4f;
+                return speed * 3f;
 
             case Layer.Rearground:
                 return speed * 1.3f;

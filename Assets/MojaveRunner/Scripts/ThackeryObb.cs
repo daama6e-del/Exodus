@@ -1,10 +1,8 @@
 using UnityEngine;
 
-
-/*
 public class ThackeryObb : MonoBehaviour
 {
-    public Parallax.Layer layer;
+    public ParalaxThackeryGame.Layer layer;
     public float breakBoom = -18f;
 
 
@@ -15,7 +13,7 @@ public class ThackeryObb : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector3.left * ThackeryLevelSpeed.GetSpeed(layer) * Time.deltaTime);
+        transform.Translate(Vector3.left * ParalaxThackeryGame.GetSpeed(layer) * Time.deltaTime);
         // Make sure this calculation is frame rate independent (hint: use Time.deltaTime) ohh thats right
 
         if (transform.position.x < breakBoom)
@@ -29,4 +27,3 @@ public class ThackeryObb : MonoBehaviour
         PlayerHealth.TryDamageTarget(other.gameObject, 1);
     }
 }
-*/

@@ -11,11 +11,6 @@ public class PlayerUI : MonoBehaviour
     public const string F0 = "F0";
     int health = 0;
 
-    public float DistanceScore = 0f;
-    public float Multiplier = 5f;
-    public float timer = 0f;
-    public Text scoreText;
-
     void Awake()
     {
         // ToDo: Use FindObjectOfType of find a Health script in the scene.
@@ -37,13 +32,6 @@ public class PlayerUI : MonoBehaviour
 
         //UI score tracker here
 
-        DistanceScore += Time.deltaTime * Multiplier;
-
-        if (timer >= 1f)
-        {
-            DistanceScore++;
-            timer = 0f;
-        }
     }
 
     // This function will be used to regularly update the hearts on screen to match how much health the player has.

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8311171482289295697}
   - component: {fileID: 1498656633158022597}
   m_Layer: 0
-  m_Name: Obsticle1
+  m_Name: FranklinObstical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
